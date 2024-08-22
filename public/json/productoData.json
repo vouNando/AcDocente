@@ -1,0 +1,64 @@
+[
+    {
+      "id": 1,
+      "nombre": "Camiseta Negra",
+      "talla": "M",
+      "imagen": "imagenes/camisetaNegra.jpg",
+      "categoria": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Camisa Azul",
+      "talla": "L",
+      "imagen": "imagenes/camisaAzul.jpg",
+      "categoria": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Chaqueta de Cuero",
+      "talla": "XL",
+      "imagen": "imagenes/chaquetaCuero.jpg",
+      "categoria": 3
+    },
+    {
+      "id": 4,
+      "nombre": "Pantalones Vaqueros",
+      "talla": "32",
+      "imagen": "imagenes/PantalonCargo.jpg",
+      "categoria": 4
+    },
+    {
+        "id": 5,
+        "nombre": "Pantalones Cargo",
+        "talla": "32",
+        "imagen": "imagenes/PantalonCargo2.jpg",
+        "categoria": 5
+      },
+      {
+        "id": 6,
+        "nombre": "Camiseta Blanca",
+        "talla": "M",
+        "imagen": "imagenes/camisetaBlanca.jpg",
+        "categoria": 6
+      },
+      {
+        "id": 7,
+        "nombre": "Camisa Azul + Camiseta Blanca",
+        "talla": "L",
+        "imagen": "imagenes/camisaAzul2.jpg",
+        "categoria": 7
+      },
+      {
+        "id": 8,
+        "nombre": "Chaqueta de Cuero",
+        "talla": "XL",
+        "imagen": "imagenes/chaquetaCuero2.jpg",
+        "categoria": 8
+      }
+      
+      
+
+
+
+  ]
+  

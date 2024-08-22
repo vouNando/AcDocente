@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa; /* Fondo claro para resaltar las imágenes */
+}
+
+.gallery {
+    margin-top: 100px;
+  margin-left: 650px;
+    position: relative;
+    width: 400px; /* Tamaño mayor para que las imágenes no estén tan juntas */
+    height: 400px;
+    transform-style: preserve-3d;
+    animation: rotate 35s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: perspective(1200px) rotateY(0deg);
+    }
+    to {
+        transform: perspective(1200px) rotateY(360deg);
+    }
+}
+
+.gallery span {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(200px); /* Ajusta el valor de translateZ para espaciar las imágenes */
+}
+
+.gallery img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid #fff; /* Opcional: agregar un borde blanco para resaltar las imágenes */
+}
+
+
+
+  /* logo*/
+  .logo-container {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    gap: 10px; /* Espacio entre el logo y el título, ajusta según sea necesario */
+    margin-left: 20px;
+}
+
+.logo-container img {
+    width: 100px; /* Tamaño del logo, ajusta según sea necesario */
+    height: 100px; /* Tamaño del logo, ajusta según sea necesario */
+    border-radius: 5%;
+}
+
+.logo-container h1 {
+    color: white; /* Color del texto del título */
+    margin: 0; /* Elimina márgenes adicionales */
+}
+
+  

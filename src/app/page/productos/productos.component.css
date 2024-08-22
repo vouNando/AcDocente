@@ -1,0 +1,19 @@
+/* Estilos básicos para las tarjetas de producto */
+
+.card-img-top {
+    height: 200px; /* Ajusta según el diseño deseado */
+    object-fit: cover;
+  }
+  
+  .card-body {
+    text-align: left;
+  }
+  
+  .btn-primary {
+    margin-top: 10px;
+    background-color: black;
+    border-color: black;
+    color: #ffffff;
+  }
+
+ 

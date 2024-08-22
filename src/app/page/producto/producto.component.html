@@ -1,0 +1,40 @@
+<div style="background-color: white;">
+
+  <div class="container-fluid">
+    <div class="main-content">
+      <div class="logo-container">
+        <img src="imagenes/logoVo.png" alt="Logo" width="100" height="100">
+        <div style="margin-left: 30px;">
+          <h1>O</h1>
+          <h1>U</h1>
+          <h1>S</h1>
+          <h1>T</h1>
+          <h1>I</h1>
+          <h1>L</h1>
+          <h1>E</h1>
+          <h1>S</h1>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <div class="card">
+          <input type="checkbox" id="toggle-info" class="toggle-info-checkbox">
+          <label for="toggle-info" class="card-img-label">
+            <img [src]="producto?.imagen" class="card-img-top" [alt]="producto?.nombre">
+          </label>
+          <div class="card-content">
+            <div class="card-body">
+              <h5 class="card-title">{{ producto?.nombre }}</h5>
+              <p class="card-text">Talla: {{ producto?.talla }}</p>
+              <a href="#" class="btn btn-primary">Compra</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <img src="imagenes/moda2.jpg" alt="" width="350" height="500">
+      </div>
+    </div>
+  </div>
+</div>
