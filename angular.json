@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "acDocente": {
+    "vou-shop": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/ac-docente",
+            "outputPath": "dist/vou-shop",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "acDocente:build:production"
+              "buildTarget": "vou-shop:build:production"
             },
             "development": {
-              "buildTarget": "acDocente:build:development"
+              "buildTarget": "vou-shop:build:development"
             }
           },
           "defaultConfiguration": "development"

@@ -1,0 +1,27 @@
+<div class="con">
+    <div class="wrapper">
+        <form [formGroup]="form" class="form-horizontal">
+            <div class="form-group">
+                <div class="input-field">
+                    <label for="email" class="form-label">Correo</label>
+                    <input type="email" id="email" formControlName="email" placeholder="Correo">
+                    <div class="invalid-feedback">El correo es obligatorio</div>
+                </div>
+                <div class="input-field">
+                    <label for="password" class="form-label">Contraseña</label>
+                    <input type="password" id="password" formControlName="password" placeholder="Contraseña">
+                    <div class="invalid-feedback">La contraseña es obligatoria</div>
+                </div>
+            </div>
+            <div class="form-buttons">
+                <button class="btn-black-white" type="button" (click)="onClickRegister()">Registrarme</button>
+                <button class="btn-black-white" type="button" (click)="onClickLogin()">Iniciar Sesión</button>
+                <button class="btn-black-white" type="button" (click)="onClickLoginWithGoogle()">Iniciar Sesión con Google</button>
+            </div>
+            <div class="form-links">
+                <a class="forgot" href="#">Olvidó su contraseña?</a>
+                <a class="Register" href="#">Registrarse</a>
+            </div>
+        </form>
+    </div>
+</div>

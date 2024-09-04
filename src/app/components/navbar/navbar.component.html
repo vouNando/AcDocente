@@ -16,8 +16,26 @@
       <li class="nav-link">
         <a routerLink="/acercade" routerLinkActive="active">acerca de</a>
       </li>
+      <li class="nav-link">
+        <a routerLink="/todos" routerLinkActive="active">Todos</a>
+      </li>
 
     </ul>
+    <div class="d-flex" >
+      
+      <button class="btn btn-outline-success" 
+      type="button"
+      routerLink="/login"
+      *ngIf="!isLogged();else elsetemplate"
+      >Iniciar Sesión</button>
+    </div>
+
+    <ng-template #elsetemplate>
+      <button class="btn btn-outline-danger"
+      type="button"
+      (click)="onClickLogout()"
+      >Cerrar Sesión</button>
+      </ng-template>
   </nav>
 </div>
 </div>
